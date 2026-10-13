@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Maple Bistro</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+        }
+        nav {
+            background-color: #6b2410;
+            padding: 16px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url("bg-food.jpg");
+            background-size: cover;
+            background-position: center;
+            min-height: 480px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            border-bottom: 8px solid #6b2410;
+        }
+        .hero-text {
+            background-color: rgba(0, 0, 0, 0.55);
+            padding: 30px 45px;
+            border-radius: 12px;
+            max-width: 750px;
+            margin: 20px;
+        }
+        .hero-text h1 {
+            font-size: 48px;
+            margin-bottom: 12px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+        }
+        .hero-text p {
+            font-size: 20px;
+            margin-bottom: 18px;
+        }
+        .container {
+            width: 85%;
+            margin: 50px auto;
+        }
+        .intro-section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #6b2410;
+            margin-bottom: 16px;
+            font-size:26px;
+        }
+        p {
+            margin-bottom:14px;
+            font-size:17px;
+        }
+        .highlight-box {
+            background-color: #fff2ec;
+            border-left: 6px solid #c96b48;
+            padding:20px;
+            margin:30px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Maple Bistro</h1>
+            <p>Authentic Canadian Comfort Food & Famous Poutine</p>
+            <p>Fresh fries, real cheese curds, rich homemade gravy, and a cozy place to share great meals with friends.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="intro-section">
+            <h2>Welcome to Maple Bistro</h2>
+            <p>
+                Here at Maple Bistro, we celebrate classic Canadian comfort food, with our signature dish being poutine.
+                Poutine started in Quebec and has grown to become one of Canada’s most famous meals. We make every batch
+                fresh with crispy golden fries, soft cheese curds, and rich homemade gravy.
+            </p>
+            <p>
+                We believe great food brings people together. Whether you are stopping by for a quick lunch, hanging out
+                with friends, or coming for a relaxing dinner, our restaurant is a warm and friendly place for everyone.
+                Our team works hard to keep our food tasty, fresh, and affordable for all guests.
+            </p>
+            <p>
+                Besides our famous poutine, we also serve light appetizers, fresh seafood bites, local coffee, sweet pastries,
+                homemade butter tarts, smoked meat sandwiches, and our well-loved ketchup chips. We pick high-quality ingredients whenever possible and support local suppliers nearby.
+            </p>
+        </div>
+
+        <div class="highlight-box">
+            <h2>Why Choose Us?</h2>
+            <p>✅ Freshly cooked fries made to order every day</p>
+            <p>✅ Real cheese curds, not shredded cheese</p>
+            <p>✅ Homemade gravy slow simmered for deep flavour</p>
+            <p>✅ Classic Canadian snacks and desserts like butter tarts</p>
+            <p>✅ Friendly service and cozy casual dining space</p>
+            <p>✅ Great menu choices for snacks, meals and desserts</p>
+        </div>
+
+        <div class="intro-section">
+            <h2>Come Visit Us Soon!</h2>
+            <p>
+                Explore our gallery page to look at all our menu items. If you have any questions or want to book a table,
+                you can send us a message on our contact page. We can’t wait to serve you!
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>ICS3U Project | Grace & Yuna</p>
+    </footer>
+</body>
+</html>
