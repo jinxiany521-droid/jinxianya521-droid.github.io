@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery | Maple Bistro</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #6b2410;
+            padding: 16px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .banner {
+            background-color: #c96b48;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .container {
+            width: 85%;
+            margin: 40px auto;
+        }
+        h2 {
+            color: #6b2410;
+            margin: 30px 0 15px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .food-card {
+            text-align: center;
+        }
+        .food-card img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="banner">
+        <h1>Our Menu Gallery</h1>
+        <p>Check out our delicious food!</p>
+    </div>
+
+    <div class="container">
+        <h2>Our Famous Poutine Varieties</h2>
+        <div class="grid">
+            <!-- poutine1.jpg = 盒装poutine -->
+            <div class="food-card">
+                <img src="poutine1.jpg" alt="Classic Boxed Poutine">
+                <h3>Classic Poutine</h3>
+                <p>Traditional fries, cheese curds and gravy</p>
+            </div>
+            <!-- poutine2.jpg = 双份铝盒poutine（适合分享） -->
+            <div class="food-card">
+                <img src="poutine2.jpg" alt="Double Serving Poutine">
+                <h3>Original Style Poutine</h3>
+                <p>Perfect for sharing with a friend</p>
+            </div>
+            <!-- loaded-poutine.jpg = 培根加料poutine -->
+            <div class="food-card">
+                <img src="loaded-poutine.jpg" alt="Loaded Bacon Poutine">
+                <h3>Loaded Bacon Poutine</h3>
+                <p>Topped with crispy bacon and fresh herbs</p>
+            </div>
+        </div>
+
+        <h2>Appetizers & Drinks</h2>
+        <div class="grid">
+            <!-- smoked-salmon.jpg = 烟熏三文鱼 -->
+            <div class="food-card">
+                <img src="smoked-salmon.jpg" alt="Smoked Salmon Bites">
+                <h3>Smoked Salmon Bites</h3>
+                <p>Light, tasty starter for your meal</p>
+            </div>
+            <!-- tim-drinks.jpg = 咖啡甜点 -->
+            <div class="food-card">
+                <img src="tim-drinks.jpg" alt="Coffee and Sweet Treats">
+                <h3>Coffee & Dessert</h3>
+                <p>Local coffee, donuts and pastries</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>ICS3U Project | Grace & Yuna</p>
+    </footer>
+</body>
+</html>
